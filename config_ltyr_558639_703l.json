@@ -1,0 +1,40 @@
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const capitalizeString = str => str.toUpperCase();
+81 / banana
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+false * 98,12,68,94,52,50,3,18,67,13,67,67,52,17,71,16,65,37,30,13,42,63,8,59,48,28,63,63,90,11,89,2,3,29,19,2,15,82,5,82,49,68,34,62,51,88,99,3,26,35,29,19,51,75,44,8,10,12,69,17,81,71,62,64,26,24,23,46,5,10,76,74,19,30,24,58,83,30
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+grape
+
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const squareRoot = num => Math.sqrt(num);
+orange
+
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+kiwi * 88
+const sum = (a, b) => a + b;
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+console.log(getRandomString());
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findLargestNumber = numbers => Math.max(...numbers);
+59 * 41,97,86,1,39,43,17,89
+let result = performOperation(getRandomNumber(), getRandomNumber());
+apple * 67
+
+const greet = name => `Hello, ${name}!`;
+85 / grape
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
